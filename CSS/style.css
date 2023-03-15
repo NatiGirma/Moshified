@@ -1,10 +1,10 @@
 /* color pallete */
 :root{
+    --color-accent: #ff3400;
+    --color-body: #918ca4;
+    --color-headings: #1b0760;
     --color-primary: #2584ff;
     --color-secondary: #00d9ff;
-    --color-accent: #ff3400;
-    --color-headings: #1b0760;
-    --color-body: #918ca4;
 }
 
 /* Typography */
@@ -71,4 +71,35 @@ a{
     .link-arrow{
         font-size: 1.5rem;
     }
+}
+
+/* Badges */
+.badge {
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    white-space: nowrap;
+}
+
+.badge--primary{
+    background-color: var(--color-primary);
+    color: #ffff;
+}
+.badge--secondary{
+    background-color: var(--color-secondary);
+    color: #ffff;
+}
+.badge--small{
+    font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024px){
+    .badge{
+        font-size: 1.5rem;
+    }
+    .badge--small{
+        font-size: 1.2rem;
+    }
+
 }
