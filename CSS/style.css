@@ -1,5 +1,5 @@
 /* color pallete */
-:root{
+:root {
     --color-accent: #ff3400;
     --color-body: #918ca4;
     --color-headings: #1b0760;
@@ -8,67 +8,80 @@
 }
 
 /* Typography */
-html{
+html {
     font-size: 62.5%;
 }
-body{
+
+body {
     font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 2.4rem;
     line-height: 1.5;
     color: var(--color-body);
 }
-h1, h2, h3{
+
+h1,
+h2,
+h3 {
     color: var(--color-headings);
 }
-h1{
+
+h1 {
     font-size: 7rem;
 }
-h2{
+
+h2 {
     font-size: 4rem;
 }
-h3{
+
+h3 {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
-@media screen and (min-width: 1024px){
-    body{
+
+@media screen and (min-width: 1024px) {
+    body {
         font-size: 1.8rem;
 
     }
-    h1{
+
+    h1 {
         font-size: 8rem;
     }
-    h2{
+
+    h2 {
         font-size: 4rem;
     }
-    h3{
+
+    h3 {
         font-size: 2.4rem;
     }
 }
 
 /* Links */
-a{
+a {
     text-decoration: none;
 }
 
-.link-arrow{
+.link-arrow {
     color: var(--color-accent);
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: bold;
 
 }
-.link-arrow::after{
+
+.link-arrow::after {
     content: '-->';
-    margin-left: 5px; 
+    margin-left: 5px;
     transition: margin 0.15s;
 }
-.link-arrow:hover::after{
-    margin-left: 10px;
-} 
 
-@media screen and (min-width: 1024px){
-    .link-arrow{
+.link-arrow:hover::after {
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .link-arrow {
         font-size: 1.5rem;
     }
 }
@@ -82,23 +95,26 @@ a{
     white-space: nowrap;
 }
 
-.badge--primary{
+.badge--primary {
     background-color: var(--color-primary);
     color: #ffff;
 }
-.badge--secondary{
+
+.badge--secondary {
     background-color: var(--color-secondary);
     color: #ffff;
 }
-.badge--small{
+
+.badge--small {
     font-size: 1.6rem;
 }
 
-@media screen and (min-width: 1024px){
-    .badge{
+@media screen and (min-width: 1024px) {
+    .badge {
         font-size: 1.5rem;
     }
-    .badge--small{
+
+    .badge--small {
         font-size: 1.2rem;
     }
 
@@ -106,20 +122,22 @@ a{
 
 /* Lists */
 
-.list{
+.list {
     list-style: none;
     padding-left: 0;
     color: var(--color-headings);
 }
+
 .list--inline .list__item {
     display: inline-block;
-    margin-right: 2rem; 
+    margin-right: 2rem;
 }
 
 .list--tick {
-    list-style-image: url(/Images/Ryan-Taylor-Green-Tick.svg);
+    list-style-image: url(../Images/tick.svg);
     padding-left: 3rem;
 }
+
 .list--tick .list__item {
     padding-left: 0.5rem;
     margin-bottom: 1rem;
@@ -129,4 +147,25 @@ a{
     .list--tick .list__item {
         padding-left: 0;
     }
+}
+
+/* Icons */
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon--primary {
+    fill: var(--color-primary);
+}
+
+.icon-container {
+    background: #f3f9fa;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
