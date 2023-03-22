@@ -562,10 +562,7 @@ a {
     text-align: center;
   }
   
-  .block__heading {
-    margin-top: 0;
-  }
-  
+ 
   .block--dark {
     background: #000;
     color: #7b858b;
@@ -643,5 +640,29 @@ a {
     }
     .nav__item{
         border: 0;
+    }
+  }
+
+  /* Hero */
+
+  .hero__tagline{
+    font-size: 2rem;
+    color: #b9c3cf; 
+    letter-spacing: 1px;
+    margin: 2rem 0 5rem;
+  }
+  .hero__image{
+    width: 100%;
+  }
+  .hero{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+  }
+
+  @media screen and (min-width:768px){
+    .hero{
+        padding-top:0 ;
+    }
+    .hero__content{
+        text-align: left;
     }
   }
