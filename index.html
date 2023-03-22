@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
@@ -15,16 +15,18 @@
     <link rel="stylesheet" href="CSS/style.css  " />
   </head>
   <body>
-    <section class="block block--dark block--skewed-left">
-      <header class="block__header">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-          laboriosam.
-        </p>
-      </header>
-    </section>
-
+    <nav class="nav collapsible collapsible--expanded">
+      <a class="nav__brand" href="/"><img src="Images/logo.svg" alt="" /></a>
+      <svg class="icon icon--white nav__toggler">
+        <use xlink:href="Images/sprite.svg#menu"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">VPS</a></li>
+        <li class="nav__item"><a href="#">Hosting</a></li>
+        <li class="nav__item"><a href="#">Domain</a></li>
+        <li class="nav__item"><a href="#">pricing</a></li>
+      </ul>
+    </nav>
     <script src="js/main.js"></script>
   </body>
 </html>
