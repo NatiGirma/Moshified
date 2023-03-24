@@ -1,0 +1,121 @@
+<section class="block container">
+  <header class="block__header">
+    <h2>Host on the Cloud to Keep Growing</h2>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, ipsa.
+    </p>
+  </header>
+  <article class="grid grid--1x2 feature">
+    <div class="feature__content">
+      <span class="icon-container">
+        <svg class="icon icon--primary">
+          <use xlink:href="Images/sprite.svg#easy"></use>
+        </svg>
+      </span>
+      <h3 class="feature__heading">Super Easy to use</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vero
+        ipsum facilis laborum vitae perferendis soluta rem tenetur, inventore
+        possimus quisquam, libero velit reiciendis nam sit exercitationem earum
+        aspernatur itaque.
+      </p>
+      <a href="#" class="link-arrow">learn more</a>
+    </div>
+    <picture>
+      <source
+        type="image/webp"
+        srcset="Images/easy.webp 1x, Images/easy@2x.webp 2x"
+      />
+      <source
+        type="image/jpg"
+        srcset="Images/easy.jpg 1x, Images/easy@2x.jpg 2x"
+      />
+      <img class="feature__image" src="Images/easy.jpg" alt="" />
+    </picture>
+  </article>
+
+  <article class="grid grid--1x2 feature">
+    <div class="feature__content">
+      <span class="icon-container">
+        <svg class="icon icon--primary">
+          <use xlink:href="Images/sprite.svg#computer"></use>
+        </svg>
+      </span>
+      <h3 class="feature__heading">Simply Fast Websites</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vero
+        ipsum facilis laborum vitae perferendis soluta rem tenetur, inventore
+        possimus quisquam, libero velit reiciendis nam sit exercitationem earum
+        aspernatur itaque.
+      </p>
+      <a href="#" class="link-arrow">learn more</a>
+    </div>
+    <picture>
+      <source
+        type="image/webp"
+        srcset="Images/fast.webp 1x, Images/fast@2x.webp 2x"
+      />
+      <source
+        type="image/jpg"
+        srcset="Images/fast.jpg 1x, Images/fast@2x.jpg 2x"
+      />
+      <img class="feature__image" src="Images/fast.jpg" alt="" />
+    </picture>
+  </article>
+  <article class="grid grid--1x2 feature">
+    <div class="feature__content">
+      <span class="icon-container">
+        <svg class="icon icon--primary">
+          <use xlink:href="Images/sprite.svg#wordpress"></use>
+        </svg>
+      </span>
+      <h3 class="feature__heading">Wordpress made Easy</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vero
+        ipsum facilis laborum vitae perferendis soluta rem tenetur, inventore
+        possimus quisquam, libero velit reiciendis nam sit exercitationem earum
+        aspernatur itaque.
+      </p>
+      <a href="#" class="link-arrow">learn more</a>
+    </div>
+    <picture>
+      <source
+        type="image/webp"
+        srcset="Images/wordpress.webp 1x, Images/wordpress@2x.webp 2x"
+      />
+      <source
+        type="image/jpg"
+        srcset="Images/wordpress.jpg 1x, Images/wordpress@2x.jpg 2x"
+      />
+      <img class="feature__image" src="Images/wordpress.jpg" alt="" />
+    </picture>
+  </article>
+  <article class="grid grid--1x2 feature">
+    <div class="feature__content">
+      <span class="icon-container">
+        <svg class="icon icon--primary">
+          <use xlink:href="Images/sprite.svg#clock"></use>
+        </svg>
+      </span>
+      <h3 class="feature__heading">24/7 Expert Support</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vero
+        ipsum facilis laborum vitae perferendis soluta rem tenetur, inventore
+        possimus quisquam, libero velit reiciendis nam sit exercitationem earum
+        aspernatur itaque.
+      </p>
+      <a href="#" class="link-arrow">learn more</a>
+    </div>
+    <picture>
+      <source
+        type="image/webp"
+        srcset="Images/support.webp 1x, Images/support@2x.webp 2x"
+      />
+      <source
+        type="image/jpg"
+        srcset="Images/support.jpg 1x, Images/support@2x.jpg 2x"
+      />
+      <img class="feature__image" src="Images/support.jpg" alt="" />
+    </picture>
+  </article>
+</section>
