@@ -578,6 +578,9 @@ a {
     justify-self: start;
     margin: 0 2rem;
   }
+  .callout{
+    margin: -50px auto;
+  }
 }
 
 /* Collapsibles */
